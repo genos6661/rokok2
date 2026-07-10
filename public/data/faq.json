@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "q": "Sejak kapan perusahaan ini berdiri?",
+    "a": "Perusahaan telah berdiri dan beroperasi sejak lebih dari 50 tahun yang lalu, melayani konsumen di seluruh Indonesia dan mancanegara."
+  },
+  {
+    "id": 2,
+    "q": "Di mana lokasi pabrik utama perusahaan?",
+    "a": "Pabrik utama kami berlokasi di Kediri, Jawa Timur, dengan beberapa fasilitas produksi tambahan di kota lain."
+  },
+  {
+    "id": 3,
+    "q": "Apakah produk sudah memiliki sertifikasi resmi?",
+    "a": "Ya, seluruh produk kami telah melalui proses sertifikasi sesuai standar mutu nasional dan internasional."
+  },
+  {
+    "id": 4,
+    "q": "Bagaimana cara menjadi mitra distributor?",
+    "a": "Anda dapat menghubungi tim Corporate Affairs kami melalui halaman Contact untuk informasi kemitraan lebih lanjut."
+  },
+  {
+    "id": 5,
+    "q": "Apakah perusahaan memiliki program CSR?",
+    "a": "Ya, kami memiliki berbagai program tanggung jawab sosial termasuk pemberdayaan petani tembakau lokal dan bantuan pendidikan."
+  },
+  {
+    "id": 6,
+    "q": "Bagaimana cara melamar pekerjaan di perusahaan ini?",
+    "a": "Anda dapat melihat lowongan yang tersedia pada halaman Karir dan mengikuti instruksi pendaftaran yang tertera."
+  },
+  {
+    "id": 7,
+    "q": "Apakah perusahaan melakukan ekspor ke luar negeri?",
+    "a": "Ya, produk kami telah didistribusikan ke lebih dari 30 negara di berbagai benua."
+  },
+  {
+    "id": 8,
+    "q": "Apakah toko online perusahaan sudah tersedia?",
+    "a": "Saat ini fitur toko online kami masih dalam tahap pengembangan dan akan segera hadir."
+  },
+  {
+    "id": 9,
+    "q": "Bagaimana perusahaan menjaga kualitas produksi?",
+    "a": "Kami menerapkan sistem quality control ketat di setiap tahap produksi, mulai dari bahan baku hingga proses pengemasan."
+  },
+  {
+    "id": 10,
+    "q": "Apakah perusahaan terbuka untuk kunjungan pabrik?",
+    "a": "Kunjungan pabrik dapat diajukan melalui permohonan resmi kepada divisi Corporate Affairs untuk keperluan edukasi maupun kemitraan."
+  }
+]

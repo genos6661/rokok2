@@ -1,0 +1,101 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "products": "Produk",
+    "gallery": "Galeri",
+    "news": "Berita",
+    "faq": "FAQ",
+    "board": "Dewan Direksi",
+    "careers": "Karir",
+    "ecommerce": "E-Commerce",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Menghadirkan Cita Rasa Terbaik untuk Indonesia",
+    "subheadline": "Lebih dari 50 tahun berkarya, menjaga kualitas dan kepercayaan jutaan konsumen di seluruh nusantara hingga mancanegara.",
+    "learnMore": "Selengkapnya",
+    "onlineStore": "Online Store",
+    "stat1": "Tahun Pengalaman",
+    "stat2": "Produk",
+    "stat3": "Karyawan",
+    "stat4": "Negara"
+  },
+  "about": {
+    "eyebrow": "Tentang Kami",
+    "title": "Perjalanan Panjang Menuju Keunggulan",
+    "overviewTitle": "Company Overview",
+    "overview": "PT Nusantara Kretek Sejahtera adalah salah satu perusahaan manufaktur rokok terbesar di Indonesia yang telah beroperasi sejak lebih dari lima dekade. Kami berkomitmen menghadirkan produk berkualitas tinggi dengan cita rasa khas nusantara.",
+    "historyTitle": "Sejarah",
+    "history": "Berdiri sejak tahun 1974, perusahaan kami bermula dari sebuah usaha keluarga kecil di Kediri, Jawa Timur, dan kini telah berkembang menjadi perusahaan berskala internasional dengan ribuan karyawan.",
+    "visionTitle": "Visi",
+    "vision": "Menjadi perusahaan manufaktur rokok terdepan yang dipercaya secara global melalui inovasi dan kualitas berkelanjutan.",
+    "missionTitle": "Misi",
+    "mission": "Menghasilkan produk berkualitas tinggi, memberdayakan mitra petani lokal, serta menjaga tanggung jawab sosial dan lingkungan secara berkelanjutan.",
+    "valuesTitle": "Nilai Inti",
+    "values": ["Integritas", "Kualitas", "Inovasi", "Kolaborasi", "Tanggung Jawab"],
+    "factoryTitle": "Factory Overview",
+    "factory": "Fasilitas produksi kami dilengkapi teknologi modern yang mampu menghasilkan jutaan batang produk setiap harinya dengan standar mutu internasional.",
+    "processTitle": "Proses Manufaktur",
+    "process": "Setiap tahap produksi, mulai dari pemilihan bahan baku, fermentasi, pencampuran, hingga pengemasan dilakukan dengan pengawasan ketat oleh tim ahli berpengalaman."
+  },
+  "products": {
+    "eyebrow": "Produk Kami",
+    "title": "Rangkaian Produk Unggulan",
+    "subtitle": "Beragam varian rasa dengan kualitas terjaga untuk memenuhi preferensi setiap konsumen.",
+    "viewDetail": "Lihat Detail",
+    "buyNow": "Beli Sekarang"
+  },
+  "gallery": {
+    "eyebrow": "Galeri",
+    "title": "Dokumentasi Perusahaan",
+    "subtitle": "Momen-momen berharga dari fasilitas produksi hingga kegiatan sosial perusahaan.",
+    "all": "Semua"
+  },
+  "news": {
+    "eyebrow": "Berita",
+    "title": "Kabar Terbaru Perusahaan",
+    "subtitle": "Ikuti perkembangan dan pencapaian terbaru dari perusahaan kami.",
+    "readMore": "Baca Selengkapnya"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Pertanyaan yang Sering Diajukan"
+  },
+  "board": {
+    "eyebrow": "Dewan Direksi",
+    "title": "Kepemimpinan yang Berpengalaman",
+    "subtitle": "Tim direksi kami memimpin perusahaan dengan dedikasi dan pengalaman puluhan tahun.",
+    "backHome": "Kembali ke Beranda"
+  },
+  "careers": {
+    "eyebrow": "Karir",
+    "title": "Bergabung Bersama Kami",
+    "subtitle": "Temukan peluang karir dan kembangkan potensi terbaikmu bersama perusahaan kami.",
+    "apply": "Apply",
+    "location": "Lokasi",
+    "type": "Jenis Pekerjaan"
+  },
+  "maintenance": {
+    "title": "Toko Online Kami Sedang Dalam Pengembangan",
+    "subtitle": "Kami sedang mempersiapkan pengalaman belanja terbaik untuk Anda. Nantikan kehadirannya segera!",
+    "backHome": "Kembali ke Beranda"
+  },
+  "comingSoon": {
+    "title": "Segera Hadir",
+    "subtitle": "Fitur pendaftaran lowongan sedang dalam proses pengembangan.",
+    "backHome": "Kembali ke Beranda"
+  },
+  "footer": {
+    "company": "Perusahaan",
+    "quickLinks": "Tautan Cepat",
+    "contact": "Kontak",
+    "newsletter": "Newsletter",
+    "newsletterText": "Berlangganan untuk mendapatkan update terbaru dari kami.",
+    "subscribe": "Berlangganan",
+    "emailPlaceholder": "Alamat email Anda",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat & Ketentuan",
+    "rights": "Seluruh hak cipta dilindungi."
+  }
+}

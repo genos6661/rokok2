@@ -1,0 +1,101 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "gallery": "Gallery",
+    "news": "News",
+    "faq": "FAQ",
+    "board": "Board of Directors",
+    "careers": "Careers",
+    "ecommerce": "E-Commerce",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Bringing the Finest Taste to Indonesia",
+    "subheadline": "Over 50 years of craftsmanship, maintaining quality and trust for millions of consumers across the archipelago and beyond.",
+    "learnMore": "Learn More",
+    "onlineStore": "Online Store",
+    "stat1": "Years Experience",
+    "stat2": "Products",
+    "stat3": "Employees",
+    "stat4": "Countries"
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "A Long Journey Toward Excellence",
+    "overviewTitle": "Company Overview",
+    "overview": "PT Nusantara Kretek Sejahtera is one of Indonesia's largest cigarette manufacturers, operating for more than five decades. We are committed to delivering high-quality products with distinctive local flavors.",
+    "historyTitle": "History",
+    "history": "Founded in 1974, our company began as a small family business in Kediri, East Java, and has since grown into an internationally recognized company with thousands of employees.",
+    "visionTitle": "Vision",
+    "vision": "To become a leading cigarette manufacturer trusted globally through continuous innovation and sustainable quality.",
+    "missionTitle": "Mission",
+    "mission": "To produce high-quality products, empower local farming partners, and maintain sustainable social and environmental responsibility.",
+    "valuesTitle": "Core Values",
+    "values": ["Integrity", "Quality", "Innovation", "Collaboration", "Responsibility"],
+    "factoryTitle": "Factory Overview",
+    "factory": "Our production facilities are equipped with modern technology capable of producing millions of units daily under international quality standards.",
+    "processTitle": "Manufacturing Process",
+    "process": "Every stage of production, from raw material selection, fermentation, blending, to packaging, is carried out under strict supervision by our experienced expert team."
+  },
+  "products": {
+    "eyebrow": "Our Products",
+    "title": "Featured Product Lineup",
+    "subtitle": "A wide range of flavors crafted with consistent quality to meet every consumer preference.",
+    "viewDetail": "View Detail",
+    "buyNow": "Buy Now"
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "Company Documentation",
+    "subtitle": "Precious moments from our production facilities to corporate social activities.",
+    "all": "All"
+  },
+  "news": {
+    "eyebrow": "News",
+    "title": "Latest Company Updates",
+    "subtitle": "Follow the latest developments and achievements from our company.",
+    "readMore": "Read More"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently Asked Questions"
+  },
+  "board": {
+    "eyebrow": "Board of Directors",
+    "title": "Experienced Leadership",
+    "subtitle": "Our board of directors leads the company with decades of dedication and experience.",
+    "backHome": "Back to Home"
+  },
+  "careers": {
+    "eyebrow": "Careers",
+    "title": "Join Our Team",
+    "subtitle": "Discover career opportunities and grow your potential with our company.",
+    "apply": "Apply",
+    "location": "Location",
+    "type": "Job Type"
+  },
+  "maintenance": {
+    "title": "Our Online Store is Under Development",
+    "subtitle": "We're preparing the best shopping experience for you. Stay tuned for the launch!",
+    "backHome": "Back Home"
+  },
+  "comingSoon": {
+    "title": "Coming Soon",
+    "subtitle": "The job application feature is currently under development.",
+    "backHome": "Back Home"
+  },
+  "footer": {
+    "company": "Company",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "newsletter": "Newsletter",
+    "newsletterText": "Subscribe to get the latest updates from us.",
+    "subscribe": "Subscribe",
+    "emailPlaceholder": "Your email address",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "rights": "All rights reserved."
+  }
+}

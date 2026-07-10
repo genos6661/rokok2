@@ -1,0 +1,17 @@
+# Enables React Router's BrowserRouter to work on Apache shared hosting.
+# Any request that isn't an existing file/folder falls back to index.html
+# so client-side routes like /dewan-direksi and /karir work on refresh.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Don't rewrite requests to the admin panel
+  RewriteCond %{REQUEST_URI} ^/admin
+  RewriteRule ^ - [L]
+
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  RewriteRule ^ index.html [L]
+</IfModule>

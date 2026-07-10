@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FAFBFF;
+  color: #3A3455;
+  overflow-x: hidden;
+}
+
+/* ===== Claymorphism base utilities ===== */
+.clay-card {
+  @apply bg-white/80 rounded-clay shadow-clay backdrop-blur-sm border border-white/60;
+}
+
+.clay-card-solid {
+  @apply bg-white rounded-clay shadow-clay;
+}
+
+.clay-btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full font-semibold px-7 py-3
+    shadow-clay transition-all duration-300 hover:shadow-clay-hover hover:-translate-y-0.5 active:translate-y-0;
+}
+
+.clay-btn-primary {
+  @apply clay-btn text-white bg-gradient-to-br from-purplepastel-dark to-orange-dark;
+}
+
+.clay-btn-secondary {
+  @apply clay-btn text-purplepastel-dark bg-white;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Blob shapes for animated backgrounds */
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(10px);
+  opacity: 0.55;
+  animation: blobFloat 12s ease-in-out infinite;
+}
+
+@keyframes blobFloat {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -40px) scale(1.08); }
+  66% { transform: translate(-25px, 25px) scale(0.95); }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F0F2FB;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #D6C6F5, #AEE3F2);
+  border-radius: 999px;
+}
+
+/* Section eyebrow label */
+.eyebrow {
+  @apply inline-block text-xs font-semibold tracking-[0.2em] uppercase text-purplepastel-dark bg-purplepastel-light px-4 py-1.5 rounded-full;
+}
+
+/* Masonry gallery */
+.masonry {
+  column-count: 1;
+  column-gap: 1.25rem;
+}
+@media (min-width: 640px) {
+  .masonry { column-count: 2; }
+}
+@media (min-width: 1024px) {
+  .masonry { column-count: 3; }
+}
+@media (min-width: 1280px) {
+  .masonry { column-count: 4; }
+}
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1.25rem;
+}

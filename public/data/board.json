@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Budi Santoso",
+    "position": "President Director",
+    "photo": "https://picsum.photos/seed/board1/500/500",
+    "bio": "Budi Santoso memiliki pengalaman lebih dari 20 tahun di industri manufaktur dan telah berkontribusi besar dalam pertumbuhan perusahaan hingga menjadi salah satu pemain utama di pasar nasional maupun internasional."
+  },
+  {
+    "id": 2,
+    "name": "Siti Rahmawati",
+    "position": "Vice President Director",
+    "photo": "https://picsum.photos/seed/board2/500/500",
+    "bio": "Siti Rahmawati memiliki pengalaman lebih dari 20 tahun di industri manufaktur dan telah berkontribusi besar dalam pertumbuhan perusahaan hingga menjadi salah satu pemain utama di pasar nasional maupun internasional."
+  },
+  {
+    "id": 3,
+    "name": "Andi Wijaya",
+    "position": "Director of Operations",
+    "photo": "https://picsum.photos/seed/board3/500/500",
+    "bio": "Andi Wijaya memiliki pengalaman lebih dari 20 tahun di industri manufaktur dan telah berkontribusi besar dalam pertumbuhan perusahaan hingga menjadi salah satu pemain utama di pasar nasional maupun internasional."
+  },
+  {
+    "id": 4,
+    "name": "Dewi Lestari",
+    "position": "Director of Finance",
+    "photo": "https://picsum.photos/seed/board4/500/500",
+    "bio": "Dewi Lestari memiliki pengalaman lebih dari 20 tahun di industri manufaktur dan telah berkontribusi besar dalam pertumbuhan perusahaan hingga menjadi salah satu pemain utama di pasar nasional maupun internasional."
+  },
+  {
+    "id": 5,
+    "name": "Hendra Kusuma",
+    "position": "Director of Marketing",
+    "photo": "https://picsum.photos/seed/board5/500/500",
+    "bio": "Hendra Kusuma memiliki pengalaman lebih dari 20 tahun di industri manufaktur dan telah berkontribusi besar dalam pertumbuhan perusahaan hingga menjadi salah satu pemain utama di pasar nasional maupun internasional."
+  },
+  {
+    "id": 6,
+    "name": "Rina Marlina",
+    "position": "Director of Human Resources",
+    "photo": "https://picsum.photos/seed/board6/500/500",
+    "bio": "Rina Marlina memiliki pengalaman lebih dari 20 tahun di industri manufaktur dan telah berkontribusi besar dalam pertumbuhan perusahaan hingga menjadi salah satu pemain utama di pasar nasional maupun internasional."
+  },
+  {
+    "id": 7,
+    "name": "Agus Prasetyo",
+    "position": "Director of Production",
+    "photo": "https://picsum.photos/seed/board7/500/500",
+    "bio": "Agus Prasetyo memiliki pengalaman lebih dari 20 tahun di industri manufaktur dan telah berkontribusi besar dalam pertumbuhan perusahaan hingga menjadi salah satu pemain utama di pasar nasional maupun internasional."
+  },
+  {
+    "id": 8,
+    "name": "Maya Anggraini",
+    "position": "Director of Corporate Affairs",
+    "photo": "https://picsum.photos/seed/board8/500/500",
+    "bio": "Maya Anggraini memiliki pengalaman lebih dari 20 tahun di industri manufaktur dan telah berkontribusi besar dalam pertumbuhan perusahaan hingga menjadi salah satu pemain utama di pasar nasional maupun internasional."
+  }
+]

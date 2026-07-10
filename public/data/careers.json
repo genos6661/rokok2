@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "position": "Staff Produksi",
+    "location": "Kediri, Jawa Timur",
+    "type": "Full-time"
+  },
+  {
+    "id": 2,
+    "position": "Quality Control Officer",
+    "location": "Kediri, Jawa Timur",
+    "type": "Full-time"
+  },
+  {
+    "id": 3,
+    "position": "Marketing Executive",
+    "location": "Jakarta",
+    "type": "Full-time"
+  },
+  {
+    "id": 4,
+    "position": "HR Supervisor",
+    "location": "Surabaya",
+    "type": "Full-time"
+  },
+  {
+    "id": 5,
+    "position": "Finance Staff",
+    "location": "Jakarta",
+    "type": "Full-time"
+  },
+  {
+    "id": 6,
+    "position": "Logistics Coordinator",
+    "location": "Kediri, Jawa Timur",
+    "type": "Contract"
+  },
+  {
+    "id": 7,
+    "position": "IT Support",
+    "location": "Surabaya",
+    "type": "Full-time"
+  },
+  {
+    "id": 8,
+    "position": "Digital Marketing Intern",
+    "location": "Jakarta",
+    "type": "Internship"
+  }
+]

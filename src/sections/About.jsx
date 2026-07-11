@@ -19,8 +19,8 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-6">
         <SectionReveal className="text-center max-w-2xl mx-auto mb-14">
           <span className="eyebrow">{t('about.eyebrow')}</span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-800 mt-4">{t('about.title')}</h2>
-          <p className="text-slate-600 mt-4">{t('about.overview')}</p>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-800 dark:text-slate-100 mt-4">{t('about.title')}</h2>
+          <p className="text-slate-600 dark:text-slate-400 mt-4">{t('about.overview')}</p>
         </SectionReveal>
 
         {/* History / Vision / Mission cards */}
@@ -31,8 +31,8 @@ export default function About() {
                 <div className={`w-14 h-14 rounded-clay-sm bg-gradient-to-br ${card.color} shadow-clay-inset flex items-center justify-center mb-5`}>
                   <card.icon className="text-white" size={26} />
                 </div>
-                <h3 className="font-bold text-lg text-slate-800 mb-2">{card.title}</h3>
-                <p className="text-sm text-slate-600 leading-relaxed">{card.text}</p>
+                <h3 className="font-bold text-lg text-slate-800 dark:text-slate-100 mb-2">{card.title}</h3>
+                <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">{card.text}</p>
               </div>
             </SectionReveal>
           ))}
@@ -40,7 +40,7 @@ export default function About() {
 
         {/* Core Values */}
         <SectionReveal className="mb-16">
-          <h3 className="text-xl font-bold text-slate-800 mb-6 text-center">{t('about.valuesTitle')}</h3>
+          <h3 className="text-xl font-bold text-slate-800 dark:text-slate-100 mb-6 text-center">{t('about.valuesTitle')}</h3>
           <div className="flex flex-wrap justify-center gap-4">
             {values.map((v, i) => (
               <motion.span
@@ -66,9 +66,9 @@ export default function About() {
               <div className="p-7">
                 <div className="flex items-center gap-3 mb-3">
                   <Factory className="text-sky-dark" size={22} />
-                  <h3 className="font-bold text-lg text-slate-800">{t('about.factoryTitle')}</h3>
+                  <h3 className="font-bold text-lg text-slate-800 dark:text-slate-100">{t('about.factoryTitle')}</h3>
                 </div>
-                <p className="text-sm text-slate-600 leading-relaxed">{t('about.factory')}</p>
+                <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">{t('about.factory')}</p>
               </div>
             </div>
           </SectionReveal>
@@ -83,9 +83,9 @@ export default function About() {
               <div className="p-7">
                 <div className="flex items-center gap-3 mb-3">
                   <Cog className="text-orange-dark" size={22} />
-                  <h3 className="font-bold text-lg text-slate-800">{t('about.processTitle')}</h3>
+                  <h3 className="font-bold text-lg text-slate-800 dark:text-slate-100">{t('about.processTitle')}</h3>
                 </div>
-                <p className="text-sm text-slate-600 leading-relaxed">{t('about.process')}</p>
+                <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">{t('about.process')}</p>
               </div>
             </div>
           </SectionReveal>

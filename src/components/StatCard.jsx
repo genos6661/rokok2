@@ -11,7 +11,7 @@ export default function StatCard({ value, label, delay = 0 }) {
       <p className="text-2xl md:text-3xl font-extrabold bg-gradient-to-br from-purplepastel-dark to-orange-dark bg-clip-text text-transparent">
         {value}
       </p>
-      <p className="text-xs md:text-sm text-slate-600 font-medium mt-1">{label}</p>
+      <p className="text-xs md:text-sm text-slate-600 dark:text-slate-400 font-medium mt-1">{label}</p>
     </motion.div>
   )
 }

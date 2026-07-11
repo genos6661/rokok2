@@ -1,170 +1,170 @@
 [
-  {
-    "id": 1,
-    "name": "Kretek Klasik Gold",
-    "slug": "kretek-klasik-gold",
-    "description": "Perpaduan tembakau pilihan dengan cita rasa khas dan aroma yang mendalam.",
-    "detail": "Perpaduan tembakau pilihan dengan cita rasa khas dan aroma yang mendalam. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
-    "thumbnail": "https://picsum.photos/seed/product1/600/600",
-    "gallery": [
-      "https://picsum.photos/seed/product1a/800/600",
-      "https://picsum.photos/seed/product1b/800/600",
-      "https://picsum.photos/seed/product1c/800/600"
-    ],
-    "status": "active"
-  },
-  {
-    "id": 2,
-    "name": "Mild Sky Blue",
-    "slug": "mild-sky-blue",
-    "description": "Racikan ringan dengan sentuhan rasa lembut untuk pengalaman santai sepanjang hari.",
-    "detail": "Racikan ringan dengan sentuhan rasa lembut untuk pengalaman santai sepanjang hari. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
-    "thumbnail": "https://picsum.photos/seed/product2/600/600",
-    "gallery": [
-      "https://picsum.photos/seed/product2a/800/600",
-      "https://picsum.photos/seed/product2b/800/600",
-      "https://picsum.photos/seed/product2c/800/600"
-    ],
-    "status": "active"
-  },
-  {
-    "id": 3,
-    "name": "Filter Premium Merah",
-    "slug": "filter-premium-merah",
-    "description": "Filter berkualitas tinggi dengan proses produksi modern dan higienis.",
-    "detail": "Filter berkualitas tinggi dengan proses produksi modern dan higienis. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
-    "thumbnail": "https://picsum.photos/seed/product3/600/600",
-    "gallery": [
-      "https://picsum.photos/seed/product3a/800/600",
-      "https://picsum.photos/seed/product3b/800/600",
-      "https://picsum.photos/seed/product3c/800/600"
-    ],
-    "status": "active"
-  },
-  {
-    "id": 4,
-    "name": "Kretek Hitam Legend",
-    "slug": "kretek-hitam-legend",
-    "description": "Cita rasa legendaris yang telah dipercaya jutaan konsumen selama puluhan tahun.",
-    "detail": "Cita rasa legendaris yang telah dipercaya jutaan konsumen selama puluhan tahun. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
-    "thumbnail": "https://picsum.photos/seed/product4/600/600",
-    "gallery": [
-      "https://picsum.photos/seed/product4a/800/600",
-      "https://picsum.photos/seed/product4b/800/600",
-      "https://picsum.photos/seed/product4c/800/600"
-    ],
-    "status": "active"
-  },
-  {
-    "id": 5,
-    "name": "Mild Lavender Soft",
-    "slug": "mild-lavender-soft",
-    "description": "Kombinasi lembut dan segar, cocok untuk gaya hidup modern.",
-    "detail": "Kombinasi lembut dan segar, cocok untuk gaya hidup modern. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
-    "thumbnail": "https://picsum.photos/seed/product5/600/600",
-    "gallery": [
-      "https://picsum.photos/seed/product5a/800/600",
-      "https://picsum.photos/seed/product5b/800/600",
-      "https://picsum.photos/seed/product5c/800/600"
-    ],
-    "status": "active"
-  },
-  {
-    "id": 6,
-    "name": "Filter Mint Fresh",
-    "slug": "filter-mint-fresh",
-    "description": "Sensasi kesegaran mint alami dengan racikan tembakau berkualitas.",
-    "detail": "Sensasi kesegaran mint alami dengan racikan tembakau berkualitas. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
-    "thumbnail": "https://picsum.photos/seed/product6/600/600",
-    "gallery": [
-      "https://picsum.photos/seed/product6a/800/600",
-      "https://picsum.photos/seed/product6b/800/600",
-      "https://picsum.photos/seed/product6c/800/600"
-    ],
-    "status": "active"
-  },
-  {
-    "id": 7,
-    "name": "Kretek Menthol Ice",
-    "slug": "kretek-menthol-ice",
-    "description": "Sentuhan menthol dingin yang menyegarkan di setiap hisapan.",
-    "detail": "Sentuhan menthol dingin yang menyegarkan di setiap hisapan. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
-    "thumbnail": "https://picsum.photos/seed/product7/600/600",
-    "gallery": [
-      "https://picsum.photos/seed/product7a/800/600",
-      "https://picsum.photos/seed/product7b/800/600",
-      "https://picsum.photos/seed/product7c/800/600"
-    ],
-    "status": "active"
-  },
-  {
-    "id": 8,
-    "name": "Premium Gold Reserve",
-    "slug": "premium-gold-reserve",
-    "description": "Edisi premium dengan proses fermentasi tembakau pilihan terbaik.",
-    "detail": "Edisi premium dengan proses fermentasi tembakau pilihan terbaik. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
-    "thumbnail": "https://picsum.photos/seed/product8/600/600",
-    "gallery": [
-      "https://picsum.photos/seed/product8a/800/600",
-      "https://picsum.photos/seed/product8b/800/600",
-      "https://picsum.photos/seed/product8c/800/600"
-    ],
-    "status": "active"
-  },
-  {
-    "id": 9,
-    "name": "Filter Ringan Putih",
-    "slug": "filter-ringan-putih",
-    "description": "Rasa ringan namun tetap kaya karakter, favorit banyak kalangan.",
-    "detail": "Rasa ringan namun tetap kaya karakter, favorit banyak kalangan. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
-    "thumbnail": "https://picsum.photos/seed/product9/600/600",
-    "gallery": [
-      "https://picsum.photos/seed/product9a/800/600",
-      "https://picsum.photos/seed/product9b/800/600",
-      "https://picsum.photos/seed/product9c/800/600"
-    ],
-    "status": "active"
-  },
-  {
-    "id": 10,
-    "name": "Kretek Peach Special",
-    "slug": "kretek-peach-special",
-    "description": "Aroma buah peach yang unik berpadu dengan tembakau berkualitas.",
-    "detail": "Aroma buah peach yang unik berpadu dengan tembakau berkualitas. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
-    "thumbnail": "https://picsum.photos/seed/product10/600/600",
-    "gallery": [
-      "https://picsum.photos/seed/product10a/800/600",
-      "https://picsum.photos/seed/product10b/800/600",
-      "https://picsum.photos/seed/product10c/800/600"
-    ],
-    "status": "active"
-  },
-  {
-    "id": 11,
-    "name": "Mild Orange Sunrise",
-    "slug": "mild-orange-sunrise",
-    "description": "Kesegaran pagi hari dalam setiap kepulan asapnya.",
-    "detail": "Kesegaran pagi hari dalam setiap kepulan asapnya. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
-    "thumbnail": "https://picsum.photos/seed/product11/600/600",
-    "gallery": [
-      "https://picsum.photos/seed/product11a/800/600",
-      "https://picsum.photos/seed/product11b/800/600",
-      "https://picsum.photos/seed/product11c/800/600"
-    ],
-    "status": "active"
-  },
-  {
-    "id": 12,
-    "name": "Filter Elite Purple",
-    "slug": "filter-elite-purple",
-    "description": "Produk elite dengan kemasan eksklusif dan rasa istimewa.",
-    "detail": "Produk elite dengan kemasan eksklusif dan rasa istimewa. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
-    "thumbnail": "https://picsum.photos/seed/product12/600/600",
-    "gallery": [
-      "https://picsum.photos/seed/product12a/800/600",
-      "https://picsum.photos/seed/product12b/800/600",
-      "https://picsum.photos/seed/product12c/800/600"
-    ],
-    "status": "active"
-  }
+    {
+        "id": 1,
+        "name": "Sidra",
+        "slug": "sidra",
+        "description": "Perpaduan tembakau pilihan dengan cita rasa khas dan aroma yang mendalam.",
+        "detail": "Perpaduan tembakau pilihan dengan cita rasa khas dan aroma yang mendalam. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
+        "thumbnail": "http://localhost:5173/public/uploads/products/products_6a51b55267c5d.png",
+        "gallery": [
+            "https://picsum.photos/seed/product1a/800/600",
+            "https://picsum.photos/seed/product1b/800/600",
+            "https://picsum.photos/seed/product1c/800/600"
+        ],
+        "status": "active"
+    },
+    {
+        "id": 2,
+        "name": "Garis",
+        "slug": "garis",
+        "description": "Racikan ringan dengan sentuhan rasa lembut untuk pengalaman santai sepanjang hari.",
+        "detail": "Racikan ringan dengan sentuhan rasa lembut untuk pengalaman santai sepanjang hari. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
+        "thumbnail": "http://localhost:5173/uploads/products/products_6a5225272c70c.png",
+        "gallery": [
+            "https://picsum.photos/seed/product2a/800/600",
+            "https://picsum.photos/seed/product2b/800/600",
+            "https://picsum.photos/seed/product2c/800/600"
+        ],
+        "status": "active"
+    },
+    {
+        "id": 3,
+        "name": "Filter Premium Merah",
+        "slug": "filter-premium-merah",
+        "description": "Filter berkualitas tinggi dengan proses produksi modern dan higienis.",
+        "detail": "Filter berkualitas tinggi dengan proses produksi modern dan higienis. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
+        "thumbnail": "https://picsum.photos/seed/product3/600/600",
+        "gallery": [
+            "https://picsum.photos/seed/product3a/800/600",
+            "https://picsum.photos/seed/product3b/800/600",
+            "https://picsum.photos/seed/product3c/800/600"
+        ],
+        "status": "active"
+    },
+    {
+        "id": 4,
+        "name": "Kretek Hitam Legend",
+        "slug": "kretek-hitam-legend",
+        "description": "Cita rasa legendaris yang telah dipercaya jutaan konsumen selama puluhan tahun.",
+        "detail": "Cita rasa legendaris yang telah dipercaya jutaan konsumen selama puluhan tahun. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
+        "thumbnail": "https://picsum.photos/seed/product4/600/600",
+        "gallery": [
+            "https://picsum.photos/seed/product4a/800/600",
+            "https://picsum.photos/seed/product4b/800/600",
+            "https://picsum.photos/seed/product4c/800/600"
+        ],
+        "status": "active"
+    },
+    {
+        "id": 5,
+        "name": "Mild Lavender Soft",
+        "slug": "mild-lavender-soft",
+        "description": "Kombinasi lembut dan segar, cocok untuk gaya hidup modern.",
+        "detail": "Kombinasi lembut dan segar, cocok untuk gaya hidup modern. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
+        "thumbnail": "https://picsum.photos/seed/product5/600/600",
+        "gallery": [
+            "https://picsum.photos/seed/product5a/800/600",
+            "https://picsum.photos/seed/product5b/800/600",
+            "https://picsum.photos/seed/product5c/800/600"
+        ],
+        "status": "active"
+    },
+    {
+        "id": 6,
+        "name": "Filter Mint Fresh",
+        "slug": "filter-mint-fresh",
+        "description": "Sensasi kesegaran mint alami dengan racikan tembakau berkualitas.",
+        "detail": "Sensasi kesegaran mint alami dengan racikan tembakau berkualitas. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
+        "thumbnail": "https://picsum.photos/seed/product6/600/600",
+        "gallery": [
+            "https://picsum.photos/seed/product6a/800/600",
+            "https://picsum.photos/seed/product6b/800/600",
+            "https://picsum.photos/seed/product6c/800/600"
+        ],
+        "status": "active"
+    },
+    {
+        "id": 7,
+        "name": "Kretek Menthol Ice",
+        "slug": "kretek-menthol-ice",
+        "description": "Sentuhan menthol dingin yang menyegarkan di setiap hisapan.",
+        "detail": "Sentuhan menthol dingin yang menyegarkan di setiap hisapan. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
+        "thumbnail": "https://picsum.photos/seed/product7/600/600",
+        "gallery": [
+            "https://picsum.photos/seed/product7a/800/600",
+            "https://picsum.photos/seed/product7b/800/600",
+            "https://picsum.photos/seed/product7c/800/600"
+        ],
+        "status": "active"
+    },
+    {
+        "id": 8,
+        "name": "Premium Gold Reserve",
+        "slug": "premium-gold-reserve",
+        "description": "Edisi premium dengan proses fermentasi tembakau pilihan terbaik.",
+        "detail": "Edisi premium dengan proses fermentasi tembakau pilihan terbaik. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
+        "thumbnail": "https://picsum.photos/seed/product8/600/600",
+        "gallery": [
+            "https://picsum.photos/seed/product8a/800/600",
+            "https://picsum.photos/seed/product8b/800/600",
+            "https://picsum.photos/seed/product8c/800/600"
+        ],
+        "status": "active"
+    },
+    {
+        "id": 9,
+        "name": "Filter Ringan Putih",
+        "slug": "filter-ringan-putih",
+        "description": "Rasa ringan namun tetap kaya karakter, favorit banyak kalangan.",
+        "detail": "Rasa ringan namun tetap kaya karakter, favorit banyak kalangan. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
+        "thumbnail": "https://picsum.photos/seed/product9/600/600",
+        "gallery": [
+            "https://picsum.photos/seed/product9a/800/600",
+            "https://picsum.photos/seed/product9b/800/600",
+            "https://picsum.photos/seed/product9c/800/600"
+        ],
+        "status": "active"
+    },
+    {
+        "id": 10,
+        "name": "Kretek Peach Special",
+        "slug": "kretek-peach-special",
+        "description": "Aroma buah peach yang unik berpadu dengan tembakau berkualitas.",
+        "detail": "Aroma buah peach yang unik berpadu dengan tembakau berkualitas. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
+        "thumbnail": "https://picsum.photos/seed/product10/600/600",
+        "gallery": [
+            "https://picsum.photos/seed/product10a/800/600",
+            "https://picsum.photos/seed/product10b/800/600",
+            "https://picsum.photos/seed/product10c/800/600"
+        ],
+        "status": "active"
+    },
+    {
+        "id": 11,
+        "name": "Mild Orange Sunrise",
+        "slug": "mild-orange-sunrise",
+        "description": "Kesegaran pagi hari dalam setiap kepulan asapnya.",
+        "detail": "Kesegaran pagi hari dalam setiap kepulan asapnya. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
+        "thumbnail": "https://picsum.photos/seed/product11/600/600",
+        "gallery": [
+            "https://picsum.photos/seed/product11a/800/600",
+            "https://picsum.photos/seed/product11b/800/600",
+            "https://picsum.photos/seed/product11c/800/600"
+        ],
+        "status": "active"
+    },
+    {
+        "id": 12,
+        "name": "Filter Elite Purple",
+        "slug": "filter-elite-purple",
+        "description": "Produk elite dengan kemasan eksklusif dan rasa istimewa.",
+        "detail": "Produk elite dengan kemasan eksklusif dan rasa istimewa. Diproduksi dengan standar mutu internasional menggunakan mesin modern serta diawasi oleh tim quality control berpengalaman.",
+        "thumbnail": "https://picsum.photos/seed/product12/600/600",
+        "gallery": [
+            "https://picsum.photos/seed/product12a/800/600",
+            "https://picsum.photos/seed/product12b/800/600",
+            "https://picsum.photos/seed/product12c/800/600"
+        ],
+        "status": "active"
+    }
 ]

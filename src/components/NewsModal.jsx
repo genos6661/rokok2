@@ -22,17 +22,17 @@ export default function NewsModal({ article, onClose }) {
           >
             <button
               onClick={onClose}
-              className="absolute top-5 right-5 w-9 h-9 rounded-full bg-white shadow-clay flex items-center justify-center"
+              className="absolute top-5 right-5 w-9 h-9 rounded-full bg-white dark:bg-slate-800 shadow-clay flex items-center justify-center"
             >
               <X size={18} />
             </button>
             <img src={article.thumbnail} alt={article.title} className="w-full h-56 object-cover rounded-clay-sm mb-5" />
-            <div className="flex items-center gap-1.5 text-xs text-slate-500 mb-2">
+            <div className="flex items-center gap-1.5 text-xs text-slate-500 dark:text-slate-500 mb-2">
               <Calendar size={13} />
               {new Date(article.date).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })}
             </div>
-            <h3 className="text-2xl font-bold text-slate-800 mb-4">{article.title}</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">{article.content}</p>
+            <h3 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-4">{article.title}</h3>
+            <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">{article.content}</p>
           </motion.div>
         </motion.div>
       )}

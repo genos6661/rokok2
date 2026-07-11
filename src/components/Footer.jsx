@@ -8,7 +8,7 @@ export default function Footer() {
   const { data: settings } = useFetchData('settings.json')
 
   return (
-    <footer id="contact" className="relative bg-gradient-to-b from-white to-lavender-light pt-20 pb-8 mt-10">
+    <footer id="contact" className="relative bg-gradient-to-b from-white to-lavender-light dark:from-slate-900 dark:to-slate-950 pt-20 pb-8 mt-10">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Logo & Company */}
@@ -19,15 +19,15 @@ export default function Footer() {
               </span>
               <span>{settings?.company_name || 'Nusantara Kretek'}</span>
             </div>
-            <p className="text-sm text-slate-600 leading-relaxed">
+            <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
               {settings?.address}
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold mb-4 text-slate-800">{t('footer.quickLinks')}</h4>
-            <ul className="space-y-2 text-sm text-slate-600">
+            <h4 className="font-semibold mb-4 text-slate-800 dark:text-slate-100">{t('footer.quickLinks')}</h4>
+            <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
               <li><a href="#about" className="hover:text-purplepastel-dark">{t('nav.about')}</a></li>
               <li><a href="#products" className="hover:text-purplepastel-dark">{t('nav.products')}</a></li>
               <li><Link to="/dewan-direksi" className="hover:text-purplepastel-dark">{t('nav.board')}</Link></li>
@@ -37,29 +37,29 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-semibold mb-4 text-slate-800">{t('footer.contact')}</h4>
-            <ul className="space-y-2 text-sm text-slate-600">
+            <h4 className="font-semibold mb-4 text-slate-800 dark:text-slate-100">{t('footer.contact')}</h4>
+            <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
               <li>{settings?.phone}</li>
               <li>{settings?.email}</li>
             </ul>
             <div className="flex gap-2 mt-4">
               {settings?.instagram && (
-                <a href={settings.instagram} target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white shadow-clay flex items-center justify-center text-purplepastel-dark hover:shadow-clay-hover">
+                <a href={settings.instagram} target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white dark:bg-slate-800 shadow-clay flex items-center justify-center text-purplepastel-dark hover:shadow-clay-hover">
                   <Instagram size={16} />
                 </a>
               )}
               {settings?.facebook && (
-                <a href={settings.facebook} target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white shadow-clay flex items-center justify-center text-purplepastel-dark hover:shadow-clay-hover">
+                <a href={settings.facebook} target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white dark:bg-slate-800 shadow-clay flex items-center justify-center text-purplepastel-dark hover:shadow-clay-hover">
                   <Facebook size={16} />
                 </a>
               )}
               {settings?.linkedin && (
-                <a href={settings.linkedin} target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white shadow-clay flex items-center justify-center text-purplepastel-dark hover:shadow-clay-hover">
+                <a href={settings.linkedin} target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white dark:bg-slate-800 shadow-clay flex items-center justify-center text-purplepastel-dark hover:shadow-clay-hover">
                   <Linkedin size={16} />
                 </a>
               )}
               {settings?.youtube && (
-                <a href={settings.youtube} target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white shadow-clay flex items-center justify-center text-purplepastel-dark hover:shadow-clay-hover">
+                <a href={settings.youtube} target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white dark:bg-slate-800 shadow-clay flex items-center justify-center text-purplepastel-dark hover:shadow-clay-hover">
                   <Youtube size={16} />
                 </a>
               )}
@@ -68,11 +68,11 @@ export default function Footer() {
 
           {/* Newsletter */}
           <div>
-            <h4 className="font-semibold mb-4 text-slate-800">{t('footer.newsletter')}</h4>
-            <p className="text-sm text-slate-600 mb-3">{t('footer.newsletterText')}</p>
+            <h4 className="font-semibold mb-4 text-slate-800 dark:text-slate-100">{t('footer.newsletter')}</h4>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mb-3">{t('footer.newsletterText')}</p>
             <form
               onSubmit={(e) => e.preventDefault()}
-              className="flex items-center gap-2 bg-white rounded-full shadow-clay-inset p-1.5"
+              className="flex items-center gap-2 bg-white dark:bg-slate-800 rounded-full shadow-clay-inset p-1.5"
             >
               <input
                 type="email"
@@ -86,7 +86,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-slate-200 mt-12 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
+        <div className="border-t border-slate-200 dark:border-slate-700 mt-12 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500 dark:text-slate-500">
           <p>&copy; {new Date().getFullYear()} {settings?.company_name || 'Nusantara Kretek'}. {t('footer.rights')}</p>
           <div className="flex gap-4">
             <a href="#" className="hover:text-purplepastel-dark">{t('footer.privacy')}</a>

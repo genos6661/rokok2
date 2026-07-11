@@ -35,7 +35,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mt-5 text-slate-800"
+            className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mt-5 text-slate-800 dark:text-slate-100"
           >
             {t('hero.headline')}
           </motion.h1>
@@ -44,7 +44,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-slate-600 text-lg mt-6 max-w-xl leading-relaxed"
+            className="text-slate-600 dark:text-slate-400 text-lg mt-6 max-w-xl leading-relaxed"
           >
             {t('hero.subheadline')}
           </motion.p>
@@ -95,7 +95,7 @@ export default function Hero() {
                 alt="Product"
                 className="rounded-clay-sm w-full h-24 object-cover mb-2"
               />
-              <p className="text-xs font-semibold text-slate-700">Quality Assured</p>
+              <p className="text-xs font-semibold text-slate-700 dark:text-slate-300">Quality Assured</p>
             </motion.div>
             <motion.div
               animate={{ y: [0, -14, 0] }}
@@ -103,7 +103,7 @@ export default function Hero() {
               className="clay-card-solid absolute -top-6 -right-8 p-3 w-32 text-center"
             >
               <p className="text-2xl font-extrabold text-orange-dark">30+</p>
-              <p className="text-[10px] text-slate-600 font-medium">Countries Reached</p>
+              <p className="text-[10px] text-slate-600 dark:text-slate-400 font-medium">Countries Reached</p>
             </motion.div>
 
             <motion.img

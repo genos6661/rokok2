@@ -12,10 +12,10 @@ export default function FAQ() {
       <div className="max-w-3xl mx-auto px-6">
         <SectionReveal className="text-center mb-14">
           <span className="eyebrow">{t('faq.eyebrow')}</span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-800 mt-4">{t('faq.title')}</h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-800 dark:text-slate-100 mt-4">{t('faq.title')}</h2>
         </SectionReveal>
 
-        {loading && <p className="text-center text-slate-500">Loading...</p>}
+        {loading && <p className="text-center text-slate-500 dark:text-slate-500">Loading...</p>}
 
         <div className="space-y-4">
           {faqs?.map((item, i) => (

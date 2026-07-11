@@ -11,6 +11,12 @@ body {
   background-color: #FAFBFF;
   color: #3A3455;
   overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark body {
+  background-color: #0F1220;
+  color: #E4E1F5;
 }
 
 /* ===== Claymorphism base utilities ===== */
@@ -18,8 +24,19 @@ body {
   @apply bg-white/80 rounded-clay shadow-clay backdrop-blur-sm border border-white/60;
 }
 
+.dark .clay-card {
+  background: rgba(30, 27, 55, 0.75);
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.35), -8px -8px 16px rgba(255, 255, 255, 0.03);
+}
+
 .clay-card-solid {
   @apply bg-white rounded-clay shadow-clay;
+}
+
+.dark .clay-card-solid {
+  background: #1B1836;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.4), -8px -8px 16px rgba(255, 255, 255, 0.03);
 }
 
 .clay-btn {
@@ -35,11 +52,43 @@ body {
   @apply clay-btn text-purplepastel-dark bg-white;
 }
 
+.dark .clay-btn-secondary {
+  background: #1B1836;
+}
+
 .glass-panel {
   background: rgba(255, 255, 255, 0.45);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.dark .glass-panel {
+  background: rgba(15, 18, 32, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ---- Dark mode shadow correction ----
+   The light-mode "clay" shadows use a lavender-tinted highlight that
+   looks like an unnatural glow when placed on a dark background.
+   These overrides swap it for a neutral, low-opacity dark shadow. */
+.dark .shadow-clay,
+.dark .shadow-clay-hover,
+.dark .shadow-clay-inset {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.45), -4px -4px 10px rgba(255, 255, 255, 0.02) !important;
+}
+
+.dark .hover\:shadow-clay-hover:hover,
+.dark .hover\:shadow-clay:hover {
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.5), -6px -6px 14px rgba(255, 255, 255, 0.03) !important;
+}
+
+.dark .clay-btn {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.45), -4px -4px 10px rgba(255, 255, 255, 0.02);
+}
+
+.dark .clay-btn:hover {
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.5), -6px -6px 14px rgba(255, 255, 255, 0.03);
 }
 
 /* Blob shapes for animated backgrounds */
@@ -69,9 +118,25 @@ body {
   border-radius: 999px;
 }
 
+.dark ::-webkit-scrollbar-track {
+  background: #171432;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #7C5CD9, #4A7A94);
+}
+
 /* Section eyebrow label */
 .eyebrow {
   @apply inline-block text-xs font-semibold tracking-[0.2em] uppercase text-purplepastel-dark bg-purplepastel-light px-4 py-1.5 rounded-full;
+}
+
+.dark .eyebrow {
+  background: rgba(169, 141, 230, 0.18);
+  color: #C9B6F5;
+}
+
+.dark .blob {
+  opacity: 0.28;
 }
 
 /* Masonry gallery */

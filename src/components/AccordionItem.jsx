@@ -11,7 +11,7 @@ export default function AccordionItem({ question, answer }) {
         onClick={() => setOpen(!open)}
         className="w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
       >
-        <span className="font-semibold text-slate-800">{question}</span>
+        <span className="font-semibold text-slate-800 dark:text-slate-100">{question}</span>
         <motion.span animate={{ rotate: open ? 180 : 0 }} transition={{ duration: 0.3 }}>
           <ChevronDown className="text-purplepastel-dark shrink-0" size={20} />
         </motion.span>
@@ -25,7 +25,7 @@ export default function AccordionItem({ question, answer }) {
             transition={{ duration: 0.3 }}
             className="overflow-hidden"
           >
-            <p className="px-6 pb-5 text-sm text-slate-600 leading-relaxed">{answer}</p>
+            <p className="px-6 pb-5 text-sm text-slate-600 dark:text-slate-400 leading-relaxed">{answer}</p>
           </motion.div>
         )}
       </AnimatePresence>

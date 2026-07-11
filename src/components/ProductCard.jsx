@@ -6,7 +6,7 @@ export default function ProductCard({ product, onViewDetail, viewLabel, buyLabel
   return (
     <motion.div
       whileHover={{ y: -6 }}
-      className="clay-card overflow-hidden group"
+      className="clay-card overflow-hidden group flex flex-col h-full"
     >
       <div className="overflow-hidden">
         <img
@@ -15,15 +15,15 @@ export default function ProductCard({ product, onViewDetail, viewLabel, buyLabel
           className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
         />
       </div>
-      <div className="p-5">
-        <h3 className="font-bold text-slate-800 mb-1.5">{product.name}</h3>
-        <p className="text-xs text-slate-600 leading-relaxed line-clamp-2 mb-4 h-8">
+      <div className="p-5 flex flex-col flex-1">
+        <h3 className="font-bold text-slate-800 dark:text-slate-100 mb-1.5">{product.name}</h3>
+        <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-4 flex-1">
           {product.description}
         </p>
         <div className="flex gap-2">
           <button
             onClick={() => onViewDetail(product)}
-            className="flex-1 text-xs font-semibold px-3 py-2.5 rounded-full bg-white shadow-clay-inset text-purplepastel-dark flex items-center justify-center gap-1.5 hover:shadow-clay transition-all"
+            className="flex-1 text-xs font-semibold px-3 py-2.5 rounded-full bg-white dark:bg-slate-800 shadow-clay-inset text-purplepastel-dark flex items-center justify-center gap-1.5 hover:shadow-clay transition-all"
           >
             <Eye size={14} /> {viewLabel}
           </button>
